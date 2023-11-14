@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/app_padding">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="46dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center_vertical"
+        style="@style/CheckBoxStyle" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_task_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/task_item_padding"
+            android:textSize="@dimen/task_title_size"
+            android:textStyle="bold"
+            android:textColor="@color/purple"/>
+
+        <TextView
+            android:id="@+id/item_task_date"
+            style="@style/RoundedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/task_category_icon"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="38dp"
+        android:layout_gravity="center_vertical"
+        tools:srcCompat="@drawable/ic_home" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CheckBoxStyle">
+        <item name="android:buttonTint">@color/black</item>
+    </style>
+    <style name="SpinnerStyle">
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:popupBackground">@color/pink</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SubtitleStyle">
+        <item name="android:textColor">@color/pink</item>
+    </style>
+    <style name="Theme.AppCompat.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:datePickerDialogTheme">@style/CalendarDialogStyle</item>
+    </style>
+    <style name="CalendarDialogStyle" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:background">@color/purple</item>
+        <item name="android:colorAccent">@color/black</item>
+    </style>
+    <style name="RoundedDate">
+        <item name="android:padding">@dimen/task_item_padding</item>
+        <item name="android:textSize">@dimen/task_details_size</item>
+        <item name="android:background">@drawable/custom_rounded_border</item>
+    </style>
+</resources>

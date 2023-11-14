@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="task_item_padding">8dp</dimen>
+    <dimen name="task_title_size">20dp</dimen>
+    <dimen name="task_details_size">18dp</dimen>
+    <dimen name="app_padding">18dp</dimen>
+    <dimen name="item_details_size">71dp</dimen>
+    <dimen name="name_details_size">51dp</dimen>
+    <dimen name="name_date_size">25dp</dimen>
+    <dimen name="checkbox_size">40dp</dimen>
+    <dimen name="icon_size">37dp</dimen>
+</resources>
